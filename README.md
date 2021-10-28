@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps:
 
 ## Live Demo
 
- [Live Demo Link](https://isaka-lumato.github.io/to-do/
+ [Live Demo Link](https://isaka-lumato.github.io/react-tutorial)
 )
 
 ## Author
