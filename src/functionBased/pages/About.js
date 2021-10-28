@@ -2,8 +2,9 @@ import React from "react";
 import SinglePage from "./SinglePage";
 import { Link, useRouteMatch, Route } from "react-router-dom";
 
-const About = (props) => {
+const About = () => {
   const { url, path } = useRouteMatch();
+  return (
     <div className="about__content">
       <ul className="about__list">
         <li>
@@ -16,6 +17,7 @@ const About = (props) => {
       <Route path={`${path}/:slug`}>
         <SinglePage />
       </Route>
-    </div>;
+    </div>
+  );
 };
 export default About;
